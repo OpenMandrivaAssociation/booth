@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	%{?snapshot:0.%{snapshot}.}1
 Summary:	Maui Camera App
 URL:    	https://mauikit.org
-Source0:	https://invent.kde.org/maui/booth/-/archive/%{?snapshot:master}%{!?snapshot:v%{version}}/%{name}-%{?snapshot:master}%{!?snapshot:v%{version}}.tar.bz2%{?snapshot:#/%{name}-%{snapshot}.tar.bz2}
+Source0:	https://invent.kde.org/maui/booth/-/archive/v%{version}/booth-v%{version}.tar.bz2
 License:	GPLv3
 Group:		Development/Tools
 BuildRequires:	cmake
@@ -37,7 +37,7 @@ Maui Camera App
 Booth is a convergent camera app, to record videos and take pictures and sync your cmera photos.
 
 %prep
-%autosetup -p1 -n %{name}-%{?snapshot:master}%{!?snapshot:v%{version}}
+%autosetup -p1 -n %{name}-v%{version}
 %cmake_kde5 -G Ninja
 
 %build
