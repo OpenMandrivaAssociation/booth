@@ -1,8 +1,6 @@
-#define snapshot 20220107
-
 Name:		booth
 Version:	1.0.2
-Release:	%{?snapshot:0.%{snapshot}.}1
+Release:	1
 Summary:	Maui Camera App
 URL:    	https://mauikit.org
 Source0:	https://invent.kde.org/maui/booth/-/archive/v%{version}/booth-v%{version}.tar.bz2
