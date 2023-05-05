@@ -1,4 +1,4 @@
-%define snapshot 20220107
+#define snapshot 20220107
 
 Name:		booth
 Version:	1.0.2
