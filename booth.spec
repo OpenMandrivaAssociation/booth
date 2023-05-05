@@ -1,17 +1,18 @@
 %define snapshot 20220107
 
-Name:		bonsai
-Version:	0.0.1
+Name:		booth
+Version:	1.0.2
 Release:	%{?snapshot:0.%{snapshot}.}1
-Summary:	Git repository manager for Plasma Mobile
+Summary:	Maui Camera App
 URL:    	https://mauikit.org
-Source0:	https://invent.kde.org/maui/%{name}/-/archive/%{?snapshot:master}%{!?snapshot:v%{version}}/%{name}-%{?snapshot:master}%{!?snapshot:v%{version}}.tar.bz2%{?snapshot:#/%{name}-%{snapshot}.tar.bz2}
+Source0:	https://invent.kde.org/maui/booth/-/archive/%{?snapshot:master}%{!?snapshot:v%{version}}/%{name}-%{?snapshot:master}%{!?snapshot:v%{version}}.tar.bz2%{?snapshot:#/%{name}-%{snapshot}.tar.bz2}
 License:	GPLv3
 Group:		Development/Tools
 BuildRequires:	cmake
 BuildRequires:	ninja
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(Qt5Core)
+BuildRequires:  cmake(Qt5Multimedia)
 BuildRequires:	cmake(Qt5Qml)
 BuildRequires:	cmake(Qt5Quick)
 BuildRequires:	cmake(Qt5Sql)
@@ -32,7 +33,8 @@ BuildRequires:	cmake(Qt5Quick)
 BuildRequires:	cmake(Qt5Widgets)
 
 %description
-Git repository manager for Plasma Mobile
+Maui Camera App
+Booth is a convergent camera app, to record videos and take pictures and sync your cmera photos.
 
 %prep
 %autosetup -p1 -n %{name}-%{?snapshot:master}%{!?snapshot:v%{version}}
