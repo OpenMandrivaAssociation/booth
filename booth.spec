@@ -44,4 +44,10 @@ Booth is a convergent camera app, to record videos and take pictures and sync yo
 %install
 %ninja_install -C build
 
-%files
+%find_lang booth
+
+%files -f booth.lang
+%{_bindir}/booth
+%{_datadir}/applications/org.kde.booth.desktop
+%{_datadir}/metainfo/org.kde.booth.appdata.xml
+%{_iconsdir}/hicolor/scalable/apps/booth.svg
