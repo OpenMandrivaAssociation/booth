@@ -1,5 +1,5 @@
 Name:		booth
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 Summary:	Maui Camera App
 URL:    	https://mauikit.org
