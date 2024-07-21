@@ -2,7 +2,7 @@ Name:		booth
 Version:	1.1.1
 Release:	1
 Summary:	Maui Camera App
-URL:    	https://mauikit.org
+URL:    	https://invent.kde.org/maui/booth
 Source0:	https://invent.kde.org/maui/booth/-/archive/v%{version}/booth-v%{version}.tar.bz2
 License:	GPLv3
 Group:		Development/Tools
