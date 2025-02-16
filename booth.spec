@@ -1,5 +1,5 @@
 Name:		booth
-Version:	1.1.3
+Version:	1.1.3~20250205
 Release:	1
 Summary:	Maui Camera App
 URL:    	https://invent.kde.org/maui/booth
