@@ -23,7 +23,6 @@ BuildRequires:	cmake(MauiKit4)
 BuildRequires:  cmake(MauiKitFileBrowsing4)
 BuildRequires:	gettext
 BuildRequires:	pkgconfig(libgit2)
-BuildRequires:	cmake(Qt6QuickCompiler)
 BuildRequires:	cmake(Qt6Network)
 BuildRequires:	cmake(Qt6QmlModels)
 BuildRequires:	cmake(Qt6Gui)
